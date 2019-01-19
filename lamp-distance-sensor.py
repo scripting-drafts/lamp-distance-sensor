@@ -63,5 +63,5 @@ try:
         time.sleep(0.1) #
 except (KeyboardInterrupt, SystemExit):
         pass
-GPIO.cleanup() #reset all GP
+GPIO.cleanup()
 print ("Program ended")
